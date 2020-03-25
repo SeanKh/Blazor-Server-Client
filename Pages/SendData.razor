@@ -1,0 +1,31 @@
+﻿@page "/senddata"
+
+@using WebApplication1.Data
+@inject ReservationService ReservationService
+@inject ToastService toastService
+
+<div class="form-group">
+    <label>
+        Message:
+        <input @bind="_messageInput" size="50" />
+    </label>
+</div>
+<button @onclick="Send">Send</button>
+
+
+@code {
+    private List<string> _messages = new List<string>();
+    private string _messageInput;
+    public void Send()
+    {
+        bool callback=ReservationService.GetReservationAsync(DateTime.Now,_messageInput);
+        //Console.WriteLine("Send");
+        //ToastMessage();
+        if(callback){
+             toastService.ShowToast("Created type1.txt with: "+ _messageInput, ToastLevel.Info);
+        }
+
+    }
+
+
+}
