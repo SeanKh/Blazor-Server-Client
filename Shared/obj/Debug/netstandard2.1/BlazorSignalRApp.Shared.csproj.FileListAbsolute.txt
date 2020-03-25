@@ -1,0 +1,8 @@
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/bin/Debug/netstandard2.1/BlazorSignalRApp.Shared.deps.json
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/bin/Debug/netstandard2.1/BlazorSignalRApp.Shared.dll
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/bin/Debug/netstandard2.1/BlazorSignalRApp.Shared.pdb
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/obj/Debug/netstandard2.1/BlazorSignalRApp.Shared.csprojAssemblyReference.cache
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/obj/Debug/netstandard2.1/BlazorSignalRApp.Shared.AssemblyInfoInputs.cache
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/obj/Debug/netstandard2.1/BlazorSignalRApp.Shared.AssemblyInfo.cs
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/obj/Debug/netstandard2.1/BlazorSignalRApp.Shared.dll
+/Users/shukhratkhaydarov/Desktop/PTX/BlazorSignalRApp/Shared/obj/Debug/netstandard2.1/BlazorSignalRApp.Shared.pdb
