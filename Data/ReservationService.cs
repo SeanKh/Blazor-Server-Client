@@ -12,7 +12,23 @@ namespace WebApplication1.Data
         {
             string path = String.Format(@"{0}/type1.txt", Directory.GetCurrentDirectory());
 
-            File.WriteAllText(path, message);
+            // This text is added only once to the file.
+            if (!File.Exists(path)) 
+            {
+                // Create a file to write to.
+                using (StreamWriter sw = File.CreateText(path)) 
+                {
+                    sw.WriteLine(message);
+                }	
+            }
+            else{
+                // This text is always added, making the file longer over time
+                // if it is not deleted.
+                using (StreamWriter sw = File.AppendText(path)) 
+                {
+                    sw.WriteLine(message);
+                }	
+            }
             
             Console.WriteLine("text written");
             return true;
